@@ -235,9 +235,22 @@ footer{
 }
 
 .btn{
+    position: relative;
     padding: 6px 20px;
     border: 2px solid lightgreen;
     background-color: green;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn2{
+    position: relative;
+    padding: 6px 20px;
+    border: 2px solid rgb(122, 126, 122);
+    background-color: rgb(28, 31, 32);
     color: white;
     margin: 17px;
     font-size: 1.5rem;
